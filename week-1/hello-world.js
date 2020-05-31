@@ -2,7 +2,7 @@
 ============================================
 ; Title: Exercise 1.3
 ; Author: Professor Krasso
-; Date: 5 May 2020
+; Date: 30 May 2020
 ; Modified By: Dan Ross
 ; Description: The purpose of this exercise 
 ; is to provide a basic demonstration of how 
