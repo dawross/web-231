@@ -3,9 +3,7 @@
 ; Title: Exercise 1.3
 ; Author: Dan Ross
 ; Date: 30 May 2020
-; Description: The purpose of this exercise 
-; is to provide a basic demonstration of how 
-; to run a JavaScript program in VS Code.
+; Description: Primitive Types
 ;===========================================
 */
 
