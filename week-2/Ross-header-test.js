@@ -8,7 +8,7 @@
 ;===========================================
 */
 
-//imports the Ross-header.js file from the root directory
+//Imports the Ross-header.js file from the root directory
 const header = require('../Ross-header.js');
 
 //Displays the formatted header in the console
