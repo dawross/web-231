@@ -2,9 +2,8 @@
 /*
 ============================================
 ; Title:  Exercise 2.2 - Header
-; Author: Professor Krasso
-; Date:   6 June 2020
-; Modified By: Dan Ross
+; Author: Dan Ross
+; Date:   6 June 2020;
 ; Description: Displays a formatted header
 ;===========================================
 */
