@@ -1,7 +1,7 @@
 
 /*
 ============================================
-; Title:  header.js
+; Title:  Exercise 2.2 - Header
 ; Author: Professor Krasso
 ; Date:   6 June 2020
 ; Modified By: Dan Ross
