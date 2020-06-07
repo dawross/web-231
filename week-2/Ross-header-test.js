@@ -8,7 +8,9 @@
 ;===========================================
 */
 
+//imports the Ross-header.js file from the root directory
 const header = require('../Ross-header.js');
 
+//Displays the formatted header in the console
 console.log(header.display("Dan", "Ross", "Exercise 2.2 - Header"));
 
