@@ -7,6 +7,9 @@
 ;===========================================
 */
 
+//Imports the ross-header.js file from the root directory
+const header = require('../ross-header.js');
+
 // function property definitions
 myName.dan = "Dan Ross";
 
@@ -20,4 +23,8 @@ function myName() {
 }
 
 // output
-console.log(myName());
+console.log(header.display("Dan", "Ross", "Exercise 2.3"));
+//Line break
+console.log('\n');
+
+console.log("Hello " + myName() + "!");

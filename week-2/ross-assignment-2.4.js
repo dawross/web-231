@@ -7,6 +7,9 @@
 ;===========================================
 */
 
+//Imports the ross-header.js file from the root directory
+const header = require('../ross-header.js');
+
 /**
  * Params: firstName, lastName
  * Response: firstName + lastName
@@ -15,8 +18,6 @@
 function fullName(firstName, lastName) {
   return firstName + lastName;
 }
-//output
-console.log(fullName("Dan", " Ross"));
 
 /**
  * Params: year, month, day
@@ -27,9 +28,6 @@ function dateWriter(year, month, day) {
   return month+"/"+day+"/"+year;
 }
 
-//output
-console.log(dateWriter(2020, 6, 7));
-
 /**
  * Params: number, numOfFixedPositions
  * Response: number.toFixed(numOfFixedPositions)
@@ -38,8 +36,6 @@ console.log(dateWriter(2020, 6, 7));
 function formatNumber (number, numOfFixedPositions) {
   return number.toFixed(numOfFixedPositions);
 }
-//output
-console.log(formatNumber(5.546346456, 2));
 
 /**
  * Params: val
@@ -49,8 +45,6 @@ console.log(formatNumber(5.546346456, 2));
 function convertToInt(val) {
   return parseInt(val);
 }
-//output
-console.log(convertToInt("3456 is a number"));
 
 /**
  * Params: val
@@ -62,4 +56,12 @@ function convertToFloat(val) {
 }
 
 //output
-console.log(convertToFloat("10.99 is the price"));
+console.log(header.display("Dan", "Ross", "Assignment 2.4"));
+//Line break
+console.log('\n');
+
+console.log("Hello my name is " + fullName("Dan", " Ross") + "!");
+
+console.log("Today's date is " + dateWriter(2020, 6, 7) + " and the current temperature is " + (formatNumber(33.645, 1) + " degrees" + "."));
+
+console.log("I am " + convertToInt("46 is my age") + " years old and my savings account goal is " + convertToFloat("50000 is my savings account goal") + ".");
