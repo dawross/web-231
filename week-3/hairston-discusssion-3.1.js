@@ -21,4 +21,4 @@ while (first < 10) { //added () around while expression and got rid of ""
 }
 //output with one error
 console.log(first);
-console.log(second);
+console.log(second); //changed Second to second (lowercase s to match the variable)
