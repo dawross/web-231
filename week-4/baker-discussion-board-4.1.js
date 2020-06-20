@@ -16,13 +16,13 @@
     var list = [ "apples" , "steak" , "oranges" , "onions" ];
 
     //cycles through the list.
-    for (i = 0; i < list.length; i++); //replace "list" with "for" since it's a for loop
+    for (i = 0; i < list.length; i++); //DR - replaced "list" with "for" since it's a for loop
 
 
     console.log(list);
 
     //shows the 3rd item in the list.
-    console.log(list[2]); //added "]" after "3" since it's an array. Changed "3" to "2" to show the third item in the list. Index starts at 0
+    console.log(list[2]); //DR - added "]" after "3" since it's an array. Changed "3" to "2" to show the third item in the list. Index starts at 0
 
      //adds item "chips" to list.
     list [list.length]= "chips";
