@@ -33,7 +33,7 @@ var filteredState = states.filter
   })[0];
 
 // output header
-console.log(header.display("Dan", "Ross", "Exercise 4.3"));
+console.log(header.display("Dan", "Ross", "Exercise 4.4"));
 console.log('\n');
 
 console.log("-- ORIGINAL ARRAY --");
