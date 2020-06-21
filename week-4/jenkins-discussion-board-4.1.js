@@ -1,7 +1,7 @@
 
 /* ============================================
 ; Title: Assignment 4.1
-; Author: Professor Krasso
+; Author: Douglas Jenkins
 ; Date: 15 June 2020
 ; Modified By: Dan Ross
 ; Description: 2 errors in the array
