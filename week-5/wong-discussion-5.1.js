@@ -15,9 +15,9 @@ inventory.set('tissue', 0);
 inventory.set('sanitizer', 2);
 
 for (let [value, key] of inventory) { //replaced the () around "value, key" with [] since it's looping through an array
-if (value < 5) {
-console.log(key + ' is running low. You have ' + value + ' left.');
-}
+  if (value < 5) {
+    console.log(key + ' is running low. You have ' + value + ' left.');
+  }
 }
 
 console.log(inventory.size); //4
