@@ -47,6 +47,7 @@ console.log(header.display("Dan", "Ross", "Exercise 5.3"));
 //new line
 console.log('');
 
+console.log("-- COMPOSERS --")
 //iterate over composer object and output results
 composers.forEach(function(e){
   console.log("Last Name: " + e.lastName + ", " + "Genre: " + e.genre + ", " + "Rating: " + e.rating);
