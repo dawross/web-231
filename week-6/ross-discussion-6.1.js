@@ -10,12 +10,12 @@
 
 //Object
 var book = {
-	"title": "Weaveworld",
+  "title": "Weaveworld",
   "for": "mature audiences",
   "ISBN": "0743417356",
   "genre": "Gothic Fiction",
 	author: {
-		firstName: "Clive",
+    firstName: "Clive",
     lastName: "Barker"
 
 };
