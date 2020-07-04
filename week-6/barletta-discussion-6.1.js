@@ -37,4 +37,4 @@
   	console.log("Employee ID: " + employees.id) //DR - changed , to +. Deleted quotes around employees.id. Changed idNum to id based on expected output.
   	console.log("Employee name: " + employees.name) //DR - got rid of brackets around name
   	console.log("Employee rate: " + employees.rate)// DR - changed "employees.['id']['rate']" to "employees.rate"
-  	console.log("Employee name: " + employees.type)// DR - Deleted quotes around employees.type. Not sure why this one still says "Employee Name", but I left is as-is based on expected output.
+  	console.log("Employee name: " + employees.types)// DR - Deleted quotes around employees.type. Not sure why this one still says "Employee Name", but I left is as-is based on expected output.
