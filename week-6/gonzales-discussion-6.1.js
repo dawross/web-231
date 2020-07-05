@@ -1,7 +1,8 @@
 /*
   	============================================
   	; Title: gonzalez-discussion-6.1
-  	; Author: Juvenal Gonzalez
+    ; Author: Juvenal Gonzalez
+    ; Modified by: Dan Ross
   	; Date: 02 July 2020
   	; Description: Create a simple program using object properties with 2 errors.
   	;===========================================
