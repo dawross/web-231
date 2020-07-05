@@ -1,9 +1,9 @@
 /*
 ============================================
-; Title: Exercise 6.2
+; Title: Exercise 6.3
 ; Author: Dan Ross
 ; Date: 5 July 2020;
-; Description: Exception Handling
+; Description: Object Literals
 ;===========================================
 */
 //Imports the ross-header.js file from the root directory
