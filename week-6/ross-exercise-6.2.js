@@ -9,17 +9,6 @@
 //Imports the ross-header.js file from the root directory
 const header = require('../ross-header.js');
 
-/*
-  Expected output:
-
-  FirstName LastName
-  Exercise 6.2
-  Today's Date
-
-  Catch clause: <your custom message goes here>
-  Finally clause reached...
-*/
-
 // output header
 console.log(header.display("Dan", "Ross", "Exercise 6.2"));
 console.log('');
