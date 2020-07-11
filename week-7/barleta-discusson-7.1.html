@@ -1,0 +1,32 @@
+Output description: The text you will input in the text box will show as a
+header
+
+<!--
+  	============================================
+  	; Title: Find errors
+  	; Author: Marie Nicole Barleta
+  	; Date: 07 09 2020
+  	; Modified by: Dan Ross
+  	; Description: Find errors with Client-Side JavaScript
+  	;===========================================
+  	-->
+
+<html><!--DR - added "<" before html -->
+
+  <head>
+    <script>
+      function enterName() {
+        var userName = document.getElementById("nameInput").value; //DR - changed getElementByClass (not valid anyway. Should be getElementsByClassName) to getElementById since it wouldn't work with trying to get a value. My understanding is that getElementsByClassName will return an array.
+
+        document.getElementById("showHeader").innerText = userName; //DR - Changed getElementByName to get
+      }
+    </script>
+  </head>
+
+  <body>
+    <input type="input" maxlength="20" id="nameInput" onkeyup="enterName()" placeholder="Enter your name:" />
+    <!-- DR -  Changed class to ID -->
+
+    <h1 id="showHeader"></h1>
+  </body>
+</html>
