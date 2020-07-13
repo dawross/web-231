@@ -1,0 +1,32 @@
+
+<!--============================================
+; Title:  gonzalez-discussion-7.1
+; Author: Juvenal Gonzalez
+; Date:   09 July 2020
+; Modified by Dan Ross
+; Description: A simple html page with embedded javascript that contains two selector errors
+;===========================================-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 class="changingHeader">This Header Should Change Color</h1>
+
+
+<button onclick="colorChange()">Background Color Change</button>
+<button onclick="colorChange2()">Font Color Change</button>
+
+<script>
+function colorChange() {
+  document.querySelector(".changingHeader").style.backgroundColor = "purple"; //DR - added a period before the class name of changingHeader.
+}
+
+function colorChange2() {
+  document.querySelector(".changingHeader").style.color = "gold"; //<!--One Error--> //DR - lower cased color since that's the correct syntax.
+}
+</script>
+
+</body>
+</html>
+
