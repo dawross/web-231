@@ -25,10 +25,10 @@
       $("input").change(function () {
         //DR - changed " $('input').on('change', function()" to the correct syntax for jQuery
         // var val, h1; //DR - removed since it isn't doing anything
-        value = $("#input").val(); //DR - changed selector to ID instead of class
+        value = $("#input").val(); //DR - changed selector to ID instead of class. You could also just use "input" alone since it's the only one on the page.
         // h1 = $("#header").children("h1"); //DR got rid of this line since it isn't necessary
-        $("h1").text(value);
-        $("h1").css("color", "cornflowerblue");
+        $("h1").text(value); //changed val to value since we're pulling in the "value" variable you created. Changed selector to h1 since it's the only one on the page
+        $("h1").css("color", "cornflowerblue");//DR added $("h1") instead of just h1
       });
     </script>
   </body>
