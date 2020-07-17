@@ -18,7 +18,7 @@ var ticket = {
   id: 105,
   name: "Help Desk Support",
   requester: "Dan Ross",
-  dateCreated: "07/05/2020",
+  dateCreated: new Date().toLocaleDateString('en-US'),
   priority: "medium",
   person:{
     id: 211,
