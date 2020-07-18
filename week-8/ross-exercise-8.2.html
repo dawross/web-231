@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- ============================================
+    ; Title: Exercise 8.2
+    ; Author: Dan Ross
+    ; Date: 18 July 2020;
+    ; Description: Dynamic HTML
+    ;=========================================== -->
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exercise 8.2</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style type="text/css">
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+      ul {
+        list-style: none;
+      }
+      #fruits ul li {
+        width: 70%;
+      }
+      #fruits {
+        text-align: center;
+      }
+      #fruits,
+      #fruits,
+      ul,
+      #fruits,
+      ul li {
+        margin: 0 auto;
+      }
+      .topbar {
+        background-color: #ccc;
+        padding: 20px;
+      }
+      .topbar {
+        background-color: #ccc;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="topbar">This is a top nav</nav>
+    <div id="fruits"></div>
+
+    <script>
+      //constructor object
+      function fruit(id, type) {
+        this.id = id;
+        this.type = type;
+      }
+      //Add fruits
+      var fruits = [
+        new fruit("1", "Apple"),
+        new fruit("2", "Orange"),
+        new fruit("3", "Banana"),
+        new fruit("4", "Mango"),
+        new fruit("5", "Pear"),
+      ];
+      // Loop and output to HTML
+      var out = "<ul title='Fruits'>";
+      for (var i = 0; i < fruits.length; i++) {
+        out += "<li>" + fruits[i].id + " " + fruits[i].type + "</li>";
+      }
+      out += " </ul>";
+      document.getElementById("fruits").innerHTML = out;
+    </script>
+  </body>
+</html>
