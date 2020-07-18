@@ -53,6 +53,7 @@
         "</thead>";
       for (var i = 0; i < employees.length; i++) {
         out +=
+          "<tbody" +
           "<tr>" +
           "<td>" +
           employees[i].id +
@@ -68,13 +69,20 @@
           "</td>" +
           "</tr>";
       }
-      out += " </table>";
+      out += "</tbody>" + "</table>";
       document.getElementById("emps").innerHTML = out;
       //function that iterates over the employees array and returns the alert with selected ID
       function getEmployee(id) {
         for (var i = 0; i < employees.length; i++) {
           if (id === employees[i].id) {
-            alrt = employees[i].id + " " + employees[i].firstName + " " + employees[i].lastName + " " + employees[i].title ;
+            alrt =
+              employees[i].id +
+              " " +
+              employees[i].firstName +
+              " " +
+              employees[i].lastName +
+              " " +
+              employees[i].title;
             return alrt;
           }
         }
@@ -83,8 +91,9 @@
       // jQuery onClick event
       // Don't remove this, just add your code to the body of the event (curly braces)
       $(function () {
-        $("table tr").click(function () {
-          var empId = $(this).find('td:first').html();
+        $("table tbody tr").click(function () {
+          //added tbody so the <th> won't be clickable
+          var empId = $(this).find("td:first").html();
           alert(getEmployee(empId));
         });
       });
