@@ -20,6 +20,7 @@
     </style>
   </head>
   <body>
+    <h1>Employee Listing</h1>
     <div id="emps"></div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -75,7 +76,7 @@
       function getEmployee(id) {
         for (var i = 0; i < employees.length; i++) {
           if (id === employees[i].id) {
-            alrt =
+            var alrt =
               employees[i].id +
               " " +
               employees[i].firstName +
@@ -91,8 +92,8 @@
       // jQuery onClick event
       // Don't remove this, just add your code to the body of the event (curly braces)
       $(function () {
-        $("table tbody tr").click(function () {
-          //added tbody so the <th> won't be clickable
+        //added tbody so the <th> won't be clickable
+        $("table tbody tr").click(function () {//added tbody so the <th> won't be clickable
           var empId = $(this).find("td:first").html();
           alert(getEmployee(empId));
         });
